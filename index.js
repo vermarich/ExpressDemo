@@ -11,6 +11,8 @@ const courses = [
     { id: 3, name: 'course3'}
 ];
 
+console.log("courses ", courses);
+
 app.get('/',(req,res) => {
     res.send('Hello World');
 })
