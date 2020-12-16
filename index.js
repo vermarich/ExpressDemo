@@ -12,6 +12,7 @@ const courses = [
 ];
 
 console.log("courses ", courses);
+console.log("courses ", courses);
 
 app.get('/',(req,res) => {
     res.send('Hello World');
